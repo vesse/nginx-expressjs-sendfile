@@ -1,0 +1,22 @@
+{
+  "name": "nginx-expressjs-sendfile",
+  "version": "0.0.1",
+  "author": "Vesa Poikajärvi <vesa.poikajarvi@iki.fi>",
+
+  "dependencies": {
+    "coffee-script": "~1.6.2",
+    "express": "~3.4.0",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6"
+  },
+
+  "scripts": {
+    "start": "coffee server.coffee"
+  },
+
+  "config": {
+    "port": 46822
+  },
+
+  "private": true
+}
